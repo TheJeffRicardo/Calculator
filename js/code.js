@@ -20,3 +20,10 @@ function clr() {
 function dlt() {
     inputValue.value = inputValue.value.slice(0, -1)
 }
+// function once() {
+//     if{
+
+//     }else{
+
+//     }
+// }

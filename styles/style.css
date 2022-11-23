@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat&family=Fredoka+One&family=Noto+Sans+Ethiopic&family=Ultra&display=swap');
 /* Universal Styling */
 *,
 *::after,
@@ -17,6 +18,13 @@ body{
     display: grid;
     justify-content: center;
     padding-top: 12%;
+    width: 35%;
+    margin:auto;
+}
+.calc h2 {
+    color: beige;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 /* buttons */
 button:hover {
@@ -25,10 +33,11 @@ button:hover {
 }
 .display {
     display: flex;
+    gap: 15px;
 }
 .display .displays {
     height: 3rem;
-    width: 12rem;
+    width: 13rem;
     border-radius: 10px;
 }
 .display .clear {
@@ -36,45 +45,66 @@ button:hover {
     width: 4rem;
     border-color: #B2B2B2;
     border-radius: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 .no1 {
     display: flex;
+    gap: 10px;
+    padding-top: 10px;
 }
 .no1 button {
     height: 3rem;
     width: 4rem;
     border-color: #B2B2B2;
     border-radius: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 .no2 {
     display: flex;
+    gap: 10px;
+    padding-top: 10px;
 }
 .no2 button {
     height: 3rem;
     width: 4rem;
     border-color: #B2B2B2;
     border-radius: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 .no3 {
     display: flex;
+    gap: 10px;
+    padding-top: 10px;
 }
 .no3 button {
     height: 3rem;
     width: 4rem;
     border-color: #B2B2B2;
     border-radius: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 .no4 {
     display: flex;
+    gap: 10px;
+    padding-top: 10px;
 }
 .no4 button {
     height: 3rem;
     width: 4rem;
     border-color: #B2B2B2;
     border-radius: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
+}
+.equals {
+    padding-top: 10px;
 }
 .equal {
-    width: 16rem;
+    width: 17.8rem;
     height: 3rem;
     border-color: #B2B2B2;
     border-radius: 10px;
