@@ -1,7 +1,81 @@
+/* Universal Styling */
 *,
 *::after,
 *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* General Styling */
+body{
+    background-image: linear-gradient(to bottom, #3C4048, #425F57);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* Div of section */
+.calc {
+    display: grid;
+    justify-content: center;
+    padding-top: 12%;
+}
+/* buttons */
+button:hover {
+    background-color: grey;
+    transition: 0.3s;
+}
+.display {
+    display: flex;
+}
+.display .displays {
+    height: 3rem;
+    width: 12rem;
+    border-radius: 10px;
+}
+.display .clear {
+    height: 3rem;
+    width: 4rem;
+    border-color: #B2B2B2;
+    border-radius: 10px;
+}
+.no1 {
+    display: flex;
+}
+.no1 button {
+    height: 3rem;
+    width: 4rem;
+    border-color: #B2B2B2;
+    border-radius: 10px;
+}
+.no2 {
+    display: flex;
+}
+.no2 button {
+    height: 3rem;
+    width: 4rem;
+    border-color: #B2B2B2;
+    border-radius: 10px;
+}
+.no3 {
+    display: flex;
+}
+.no3 button {
+    height: 3rem;
+    width: 4rem;
+    border-color: #B2B2B2;
+    border-radius: 10px;
+}
+.no4 {
+    display: flex;
+}
+.no4 button {
+    height: 3rem;
+    width: 4rem;
+    border-color: #B2B2B2;
+    border-radius: 10px;
+}
+.equal {
+    width: 16rem;
+    height: 3rem;
+    border-color: #B2B2B2;
+    border-radius: 10px;
 }

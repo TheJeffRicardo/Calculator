@@ -9,43 +9,43 @@
     <title>Calculator</title>
 </head>
 <body>
-    <section class="container-fluid">
-        <div class="align-items-start">
-            <div>
+    <section>
+        <div class="calc">
+            <div class="display">
                 <!-- The placeholder for input -->
-                <input type="text" name="numbers" placeholder="0" id="input" class="col-3">
-                <button id="button" class="clear col-1" onclick="clr()">CL</button>
+                <input type="text" class="displays" name="numbers" placeholder="0" id="input">
+                <button id="button" class="clear" onclick="clr()">CL</button>
             </div>
-            <div class="row">
+            <div class="values">
                 <!-- Input number values -->
-                <div>
-                    <button class="button col-1" id="number" value="1" onclick="display('1')">1</button>
-                    <button class="button col-1" id="number" value="2" onclick="display('2')">2</button>
-                    <button class="button col-1" id="number" value="3" onclick="display('3')">3</button>
-                    <button class="operator col-1" id="number" onclick="display('+')">+</button>
+                <div class="no1">
+                    <button class="button" id="number" value="1" onclick="display('1')">1</button>
+                    <button class="button" id="number" value="2" onclick="display('2')">2</button>
+                    <button class="button" id="number" value="3" onclick="display('3')">3</button>
+                    <button class="operator" id="number" onclick="display('+')">+</button>
                 </div>
-                <div>
-                    <button class="button col-1" id="number" value="4" onclick="display('4')">4</button>
-                    <button class="button col-1" id="number" value="5" onclick="display('5')">5</button>
-                    <button class="button col-1" id="number" value="6" onclick="display('6')">6</button>
-                    <button class="operator col-1" id="number" onclick="display('-')">-</button>
+                <div class="no2">
+                    <button class="button" id="number" value="4" onclick="display('4')">4</button>
+                    <button class="button" id="number" value="5" onclick="display('5')">5</button>
+                    <button class="button" id="number" value="6" onclick="display('6')">6</button>
+                    <button class="operator" id="number" onclick="display('-')">-</button>
                 </div>
-                <div>
-                    <button class="button col-1" id="number" value="7" onclick="display('7')">7</button>
-                    <button class="button col-1" id="number" value="8" onclick="display('8')">8</button>
-                    <button class="button col-1" id="number" value="9" onclick="display('9')">9</button>
-                    <button class="operator col-1" id="number" onclick="display('*')">x</button>
+                <div class="no3">
+                    <button class="button" id="number" value="7" onclick="display('7')">7</button>
+                    <button class="button" id="number" value="8" onclick="display('8')">8</button>
+                    <button class="button" id="number" value="9" onclick="display('9')">9</button>
+                    <button class="operator" id="number" onclick="display('*')">x</button>
                 </div>
-                <div>
-                    <button class="button col-1" id="number" value="0" onclick="display('0')">0</button>
-                    <button class="button col-1" id="number" value="." onclick="display('.')">.</button>
-                    <button id="button" class="clear col-1" onclick="dlt()">DEL</button>
-                    <button class="operator col-1" id="number" onclick="display('/')">/</button>
+                <div class="no4">
+                    <button class="button" id="number" value="0" onclick="display('0')">0</button>
+                    <button class="button" id="number" value="." onclick="display('.')">.</button>
+                    <button id="button" class="clear" onclick="dlt()">DEL</button>
+                    <button class="operator" id="number" onclick="display('/')">/</button>
                 </div>
             </div>
-            <div class="row">
+            <div>
                 <!-- Output value -->
-                <button id="equal" onclick="answer()" class="col-4">=</button>
+                <button id="equal" class="equal" onclick="answer()">=</button>
             </div>
         </div>
     </section>
