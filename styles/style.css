@@ -11,24 +11,44 @@
 body{
     background-image: linear-gradient(to bottom, #3C4048, #425F57);
     background-repeat: no-repeat;
-    height: 100vh;
+}
+section {
+    height: 94.7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 /* Div of section */
 .calc {
     display: grid;
     justify-content: center;
-    padding-top: 12%;
-    width: 35%;
+    width: 30%;
     margin:auto;
+    background-color: #ffffff0c;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .calc h2 {
     color: beige;
     font-family: 'Abril Fatface', cursive;
     font-family: 'Fredoka One', cursive;
 }
+/* Input value */
+.displays {
+    font-size: 25px;
+    text-align: end;
+    padding-right: 5px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
+    border: none;
+}
 /* buttons */
+button {
+    border: none;
+}
 button:hover {
-    background-color: grey;
+    background-color: #ffffff0c;
     transition: 0.3s;
 }
 .display {
@@ -100,6 +120,12 @@ button:hover {
     font-family: 'Abril Fatface', cursive;
     font-family: 'Fredoka One', cursive;
 }
+.no4 button:nth-child(2){
+    background-color: #ffffff0c;
+}
+.no4 button:nth-child(2):hover{
+    background-color: aliceblue;
+}
 .equals {
     padding-top: 10px;
 }
@@ -108,4 +134,22 @@ button:hover {
     height: 3rem;
     border-color: #B2B2B2;
     border-radius: 10px;
+}
+.operator {
+    background-color: #ffffff0c;
+}
+.operator:hover {
+    background-color: aliceblue;
+}
+.display .clear:hover {
+    background-color: #ffffff0c;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
+    color: aliceblue;
 }
