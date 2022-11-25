@@ -1,20 +1,30 @@
 let inputValue = document.querySelector("#input")
 let comma = true
+let isEvaluated = false;
 
 // Function for the input display
 function display(number) {
     inputValue.value += number
     comma = true
+    if(isEvaluated){
+        isEvaluated = false;
+        clr(inputValue);
+    } 
 }
 function symbol(number) {
     inputValue.value += number
     comma = true
+    if(isEvaluated){
+        isEvaluated = false;
+        clr(inputValue);
+    } 
 }
 
 // Process to solve operation
 function answer() {
     try{
-        inputValue.value = eval(inputValue.value)
+        inputValue.value = eval(inputValue.value);
+        isEvaluated =true;
     }
     catch(err){
         inputValue.value = 'Error!!!'
@@ -33,7 +43,7 @@ function dlt() {
 
 // Display comma
 function displayComma(number){
-    if(comma == true){
+    if(comma == true ){
         inputValue.value += number
         comma = false
     }
