@@ -1,19 +1,29 @@
 let inputValue = document.querySelector("#input")
 let comma = true
+let operators = true
 let isEvaluated = false;
 
 // Function for the input display
 function display(number) {
     inputValue.value += number
     comma = true
+    operators = true
     if(isEvaluated){
         isEvaluated = false;
         clr(inputValue);
     } 
 }
-function symbol(number) {
-    inputValue.value += number
+
+function displayOperators(number){
+    if(operators == true ){
+        inputValue.value += number
+        operators = false
+    }
     comma = true
+}
+
+let toggleOperators = () => {
+    operators = true
 }
 
 // Process to solve operation
