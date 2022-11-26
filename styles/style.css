@@ -124,6 +124,7 @@ button:hover {
 }
 .no4 button:nth-child(2){
     background-color: #ffffff0c;
+    border: 3px solid aliceblue;
 }
 .no4 button:nth-child(2):hover{
     background-color: aliceblue;
@@ -139,6 +140,7 @@ button:hover {
 }
 .operator {
     background-color: #ffffff0c;
+    border: 3px solid aliceblue;
 }
 .operator:hover {
     background-color: aliceblue;
