@@ -14,10 +14,6 @@ function display(number) {
 function symbol(number) {
     inputValue.value += number
     comma = true
-    if(isEvaluated){
-        isEvaluated = false;
-        clr(inputValue);
-    } 
 }
 
 // Process to solve operation

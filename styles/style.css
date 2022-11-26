@@ -56,6 +56,8 @@ button:hover {
     gap: 15px;
 }
 .display .displays {
+    color: black;
+    background-color: aliceblue;
     height: 3rem;
     width: 13rem;
     border-radius: 10px;
@@ -154,7 +156,115 @@ footer {
     color: aliceblue;
 }
 
-/* Media Query for 300px */
-@media screen and (max-width: 350px) {
-    
+/* Media Query for 325px */
+@media screen and (max-width: 325px) {
+    /* General Styling */
+    body {
+        height: 100vh;
+    }
+    /* Div of section */
+    .calc {
+        background-color: #ffffff00;
+        border-radius: 30px;
+        padding-top: 0%;
+    }
+    .display .displays {
+        height: 2.5rem;
+        width: 9.4rem;
+        border-radius: 10px;
+    }
+    .display .clear {
+        height: 2.5rem;
+        width: 2.7rem;
+        border-color: #B2B2B2;
+        border-radius: 10px;
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Fredoka One', cursive;
+    }
+    .no1 button {
+        height: 2rem;
+        width: 2.7rem;
+    }
+    .no2 button {
+        height: 2rem;
+        width: 2.7rem;
+    }
+    .no3 button {
+        height: 2rem;
+        width: 2.7rem;
+    }
+    .no4 button {
+        height: 2rem;
+        width: 2.7rem;
+    }
+    .equal {
+        width: 12.8rem;
+        height: 2rem;
+    }
+
+    /* Footer */
+    footer {
+        width: 100%;
+        margin-top: -7%;
+    }
+    footer p {
+        font-size: 0.8rem;
+        padding-left: 35px;
+    }    
+}
+
+/* Media Query for 720px */
+@media screen and (min-width: 325px) and (max-width: 720px) {
+    /* General Styling */
+    body {
+        height: 100vh;
+    }
+    /* Div of section */
+    .calc {
+        background-color: transparent;
+    }
+    .calc h2 {
+        font-size: 30px;
+    }
+    .display .displays {
+        height: 3rem;
+        width: 11.7rem;
+        border-radius: 10px;
+    }
+    .display .clear {
+        height: 3rem;
+        width: 3.5rem;
+        border-color: #B2B2B2;
+        border-radius: 10px;
+        font-family: 'Abril Fatface', cursive;
+        font-family: 'Fredoka One', cursive;
+    }
+    .no1 button {
+        height: 3rem;
+        width: 3.5rem;
+    }
+    .no2 button {
+        height: 3rem;
+        width: 3.5rem;
+    }
+    .no3 button {
+        height: 3rem;
+        width: 3.5rem;
+    }
+    .no4 button {
+        height: 3rem;
+        width: 3.5rem;
+    }
+    .equal {
+        width: 15.8rem;
+        height: 3rem;
+    }
+
+    /* Footer */
+    footer {
+        width: 100%;
+    }
+    footer p {
+        font-size: 1.2rem;
+    }    
 }
